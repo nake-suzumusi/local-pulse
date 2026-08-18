@@ -2,6 +2,9 @@
 
 Ollama、LM Studio、OpenAI互換APIで動くローカルLLMの応答速度を、ブラウザから計測するWebツールです。
 
+- [GitHubリポジトリ](https://github.com/nake-suzumusi/local-pulse)
+- [リリース・ダウンロード](https://github.com/nake-suzumusi/local-pulse/releases)
+
 ## 主な機能
 
 - 生成速度（tokens / second）の計測
@@ -19,7 +22,7 @@ Ollama、LM Studio、OpenAI互換APIで動くローカルLLMの応答速度を�
 
 ## Windowsで簡単に起動する
 
-1. GitHubの「Code」→「Download ZIP」からダウンロードして展開します。
+1. [GitHubリポジトリ](https://github.com/nake-suzumusi/local-pulse)の「Code」→「Download ZIP」からダウンロードして展開します。
 2. `start-local.cmd` をダブルクリックします。
 3. 初回だけ必要なパッケージが自動でインストールされます。
 4. 起動後、ブラウザで `http://localhost:3000` が開きます。
@@ -84,11 +87,9 @@ git init
 git add .
 git commit -m "Initial release"
 git branch -M main
-git remote add origin <YOUR_REPOSITORY_URL>
+git remote add origin https://github.com/nake-suzumusi/local-pulse.git
 git push -u origin main
 ```
-
-`<YOUR_REPOSITORY_URL>` は、作成したGitHubリポジトリのURLに置き換えてください。
 
 ## 開発・検証
 
