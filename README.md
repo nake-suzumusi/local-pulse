@@ -5,6 +5,10 @@ Ollama、LM Studio、OpenAI互換APIで動くローカルLLMの応答速度を�
 - [GitHubリポジトリ](https://github.com/nake-suzumusi/local-pulse)
 - [リリース・ダウンロード](https://github.com/nake-suzumusi/local-pulse/releases)
 
+## 注意
+
+-このプロジェクトは完全なvibe codingで作成されています。セキュリティ上の重大な問題を含む可能性があることをご理解のうえ、ご利用ください。
+
 ## 主な機能
 
 - 生成速度（tokens / second）の計測
